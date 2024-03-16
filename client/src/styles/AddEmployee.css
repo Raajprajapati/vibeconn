@@ -1,0 +1,39 @@
+.create_emp {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .create_emp h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .create_emp form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create_emp input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .create_emp button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #059d8b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create_emp button:hover {
+    background-color: #018273;
+  }
+  

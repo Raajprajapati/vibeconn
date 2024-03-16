@@ -1,0 +1,39 @@
+
+/* Global styles files */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Css reset */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #cbf7fd;
+}
+.wrapper{
+  padding: 10px 50px;
+}
+
+.employee_wrapper{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 931px) {
+  .wrapper{
+    padding: 10px;
+  }
+
+  .employee_wrapper{
+    width: 100%;
+  }
+}

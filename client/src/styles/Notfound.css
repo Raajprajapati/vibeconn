@@ -1,0 +1,12 @@
+.notfound{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.notfound h1{
+    margin: 30px 0;
+}
+.notfound a{
+    margin-top: 30px !important;
+}

@@ -1,0 +1,92 @@
+.employee_card {
+	padding: 16px;
+	width: 300px;
+	height: 250px;
+	background-color: #ffffff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	flex-grow: 1;
+}
+
+.employee_card .card_inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.employee_card p {
+	margin: 4px 0;
+	text-transform: capitalize;
+	color: black;
+}
+
+.employee_card input {
+	margin: 4px 0;
+	padding: 8px;
+	width: 100%;
+	background-color: #f0f0f0;
+	color: black;
+	border: 1px solid #6d6d6dcc;
+	border-radius: 3px;
+}
+
+.employee_card input:focus {
+	border: 1px solid #00d8b8;
+	outline: #00d8b8;
+	background-color: #d8fff9;
+	border-radius: 3px;
+}
+
+.employee_card button {
+	margin: 4px;
+	padding: 8px 16px;
+	cursor: pointer;
+	color: white;
+	border: none;
+	font-size: 16px;
+	border-radius: 4px;
+}
+
+.btns {
+	display: flex;
+}
+
+.employee_card .red {
+	background-color: #ff4545;
+}
+
+.employee_card .green {
+	background-color: #19db0c;
+}
+
+.employee_card button:hover {
+	opacity: 0.7;
+}
+
+.employee_card button:disabled{
+	background-color: #c2eecb;
+}
+
+@media screen and (min-width:758px) {
+	.employee_card {
+		width: 100%;
+		height: auto;
+		padding: 30px 15px;
+	}
+
+	.employee_card .card_inner {
+		flex-direction: row;
+	}
+
+	.employee_card p {
+		display: flex;
+		flex-direction: column;
+		row-gap: 5px;
+	}
+
+	.employee_card input {
+		margin: 4px 5px;
+		height: 45px;
+	}
+
+}
