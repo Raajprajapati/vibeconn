@@ -13,12 +13,14 @@ Make sure you have the following installed on your local machine:
 
 ### Installation
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine. Make sure git is already installed to run below command.
 
    ```bash
    git clone https://github.com/Raajprajapati/vibeconn.git
 
-Or download the code from the above repository.
+Or download the code from the below repository.
+
+https://github.com/Raajprajapati/vibeconn
 
 2. Go to client folder and run the below command to install all dependencies.
 
@@ -40,7 +42,8 @@ Or download the code from the above repository.
 
 or use  ``` nodemon index.js ``` if nodemon module is installed.
 
-6. Move to the client folder and run the front end part of website using the below command.
+6. Move to the client folder and run the front-end part of website using the below command.
+   
 ``` npm run dev ```
 
 7. Open the browser and goto http://localhost:5173/ to test the website.
@@ -49,10 +52,10 @@ or use  ``` nodemon index.js ``` if nodemon module is installed.
 
 - Add the employee data from the home page on the website.
 
-- Move to employees page to manage deletion and edit operations on the employees data.
-
-- Edit employee data or delete data.
+- Move to employees page to perform deletion and edit operations on the employees data.
 
 - Perform search by employee name or id.
+
+- Clear search results by X button on search bar.
 
 - Employee Id must be a unique number.
